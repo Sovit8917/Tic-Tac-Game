@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    
+    <div class="gameContainer">
+        <div class="titlesection">
+            <h1>Welcome to Tic Tac MyTicTacToe</h1>
+            <div class="game-turn-details-container">
+                <span class="turn-Details">Turn for X</span>
+                <button class="reset">reset</button>
+            </div>
+        </div>
+        <div class="actualgameContainer">
+            <div class="game-row">
+                <div class="box box-left top"></div>
+                <div class="box top"></div>
+                <div class="box box-right top"></div>
+            </div>
+            <div class="game-row">
+                <div class="box box-left"></div>
+                <div class="box"></div>
+                <div class="box box-right"></div>
+            </div>
+            <div class="game-row">
+                <div class="box box-left bottom"></div>
+                <div class="box bottom"></div>
+                <div class="box box-right bottom"></div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal">
+        <div class="modalContent">
+            <h2 class="winMessage">
+                Player X wins! 🎉🎊
+            </h2>
+            <button class="playAgain">Play Again</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
